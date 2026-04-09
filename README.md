@@ -34,7 +34,7 @@ Execute the database script:
 
 Bash
 python database.py
-# 📊 Summary Table Schema
+## 📊 Summary Table Schema
 The resulting summary_transformation table includes:
 - year: The year of publication.
 - count_book: Total number of books published that year.
