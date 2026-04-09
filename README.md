@@ -41,4 +41,3 @@ The resulting summary_transformation table includes:
 - average_currency: The average price in USD for that year, rounded to two decimal places.
 - count_book: Total number of books published that year.
 
-average_currency: The average price in USD for that year, rounded to two decimal places.
