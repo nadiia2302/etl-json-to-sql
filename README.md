@@ -1,4 +1,4 @@
-# Book Data Ingestion & Transformation (Task #1)
+## Book Data Ingestion & Transformation (Task #1)
 This project demonstrates a data engineering pipeline that processes a "corrupted" JSON file, ingests the cleaned data into a relational database (SQLite), and performs analytical transformations directly within the database using SQL.
 
 # 🚀 Overview
@@ -16,7 +16,7 @@ Aggregation: Books are grouped by their publication year to calculate counts and
 
 Precision: Average prices are rounded to 2 decimal places (cents).
 
-📁 Project Structure
+# 📁 Project Structure
 task_1.py: Contains the logic for reading, cleaning, and preparing the raw JSON data.
 
 database.py: Handles the SQLite connection, table creation, data insertion, and the execution of the transformation query.
@@ -25,7 +25,7 @@ task1_d.json: The raw source data file.
 
 books.db: The generated SQLite database file.
 
-🛠️ How to Run
+# 🛠️ How to Run
 Clone the repository.
 
 Ensure task1_d.json is in the root directory.
@@ -34,11 +34,11 @@ Execute the database script:
 
 Bash
 python database.py
-📊 Summary Table Schema
+# 📊 Summary Table Schema
 The resulting summary_transformation table includes:
-
-year: The year of publication.
-
-count_book: Total number of books published that year.
+-year: The year of publication.
+-count_book: Total number of books published that year.
+-average_currency: The average price in USD for that year, rounded to two decimal places.
+-count_book: Total number of books published that year.
 
 average_currency: The average price in USD for that year, rounded to two decimal places.
